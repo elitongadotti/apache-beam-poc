@@ -12,7 +12,7 @@ pipeline_options = {
 pipeline_options = PipelineOptions.from_dictionary(pipeline_options)
 p1 = beam.Pipeline(options=pipeline_options)
 
-# GOOGLE_APPLICATION_CREDENTIALS_CURSO_BEAM definida nas variaveis de ambiente da maquina local
+# GOOGLE_APPLICATION_CREDENTIALS_CURSO_BEAM definida nas variaveis de ambiente da maquina local!
 
 class filtro(beam.DoFn):
   def process(self,record):
